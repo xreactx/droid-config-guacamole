@@ -21,6 +21,15 @@ Requires:
 - libhybris-libGLESv2
 - libhybris-libwayland-egl
 
+# Telephony
+- ofono-ril-binder-plugin
+
+# Bluetooth
+- bluebinder
+
+# Flashlight
+- jolla-settings-system-flashlight
+
 # Sensors
 - hybris-libsensorfw-qt5
 
@@ -32,6 +41,7 @@ Requires:
 - qt5-plugin-generic-evdev
 
 - pulseaudio-modules-droid
+- pulseaudio-modules-droid-hidl
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
@@ -42,6 +52,7 @@ Requires:
 
 # Add GStreamer v1.0 as standard
 - gstreamer1.0
+- gstreamer1.0-libav
 - gstreamer1.0-plugins-good
 - gstreamer1.0-plugins-base
 - gstreamer1.0-plugins-bad
