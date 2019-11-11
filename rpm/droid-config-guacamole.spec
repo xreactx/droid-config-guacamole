@@ -10,10 +10,6 @@
 %define community_adaptation 1
 %define pixel_ratio 2.25
 
-#Device-specific usb-moded configuration
-Provides: usb-moded-configs
-Obsoletes: usb-moded-defaults
-
 # Device-specific ofono configuration
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
