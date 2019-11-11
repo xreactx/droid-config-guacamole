@@ -116,7 +116,6 @@ namespace.sphal.search.paths += /vendor/${LIB}
 
 namespace.sphal.permitted.paths  = /odm/${LIB}
 namespace.sphal.permitted.paths += /vendor/${LIB}
-namespace.sphal.permitted.paths += /usr/libexec/droid-hybris/system/${LIB}
 
 namespace.sphal.asan.search.paths  = /data/asan/odm/${LIB}
 namespace.sphal.asan.search.paths +=           /odm/${LIB}
@@ -267,6 +266,7 @@ namespace.default.search.paths += /vendor/${LIB}
 
 namespace.default.permitted.paths  = /odm
 namespace.default.permitted.paths += /vendor
+namespace.default.permitted.paths += /usr/libexec/droid-hybris/system/${LIB}
 
 namespace.default.asan.search.paths  = /data/asan/odm/${LIB}
 namespace.default.asan.search.paths +=           /odm/${LIB}
